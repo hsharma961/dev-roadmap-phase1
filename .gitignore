@@ -1,0 +1,65 @@
+# ----------------------
+# General
+# ----------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ----------------------
+# Compiled files
+# ----------------------
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+
+# ----------------------
+# IDE-specific
+# ----------------------
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# JetBrains (CLion, Rider)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ----------------------
+# Unreal Engine
+# ----------------------
+# Binary files
+Binaries/
+Build/
+Saved/
+Intermediate/
+DerivedDataCache/
+
+# Ignore config backups
+Config/DefaultEditor.ini
+Config/DefaultEngine.ini
+Config/DefaultGame.ini
+
+# Ignore project user settings
+*.uproject.user
+
+# ----------------------
+# Git LFS note
+# ----------------------
+# Keep assets (textures, models) in Git LFS if needed
